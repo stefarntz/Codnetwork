@@ -8,13 +8,13 @@ interface ItemCardProps {
 
 const ItemCard: React.FC<ItemCardProps> = ({ imageSrc, title }) => {
   return (
-    <div className=" w-full rounded overflow-hidden drop-shadow-lg bg-gray-700">
+    <div className=" w-full rounded overflow-hidden drop-shadow-lg bg-neutral-700">
       <div className="relative w-full aspect-[10/3]">
         <Image
           src={imageSrc}
           alt={title}
           fill
-          className="object-center object-contain p-3 rounded-t"
+          className="object-center object-contain p-5 rounded-t"
         />
       </div>
 
