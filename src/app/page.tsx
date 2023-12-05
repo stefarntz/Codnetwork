@@ -19,33 +19,33 @@ export default function Home() {
         {/* itemcards ar */}
         <div className="p-4 text-l font-bold ">Assault rifles</div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 w-full justify-center">
-          <ItemCard imageSrc={gun5} title="Mtz-556" />
+          <ItemCard imageSrc={gun5} title="Mtz-556" description="ar" />
 
-          <ItemCard imageSrc={gun4} title="Mcw" />
+          <ItemCard imageSrc={gun4} title="Mcw" description="ar" />
 
-          <ItemCard imageSrc={gun6} title="Sva-45" />
+          <ItemCard imageSrc={gun6} title="Sva-45" description="ar" />
 
-          <ItemCard imageSrc={gun1} title="Dg-58" />
+          <ItemCard imageSrc={gun1} title="Dg-58" description="ar" />
 
-          <ItemCard imageSrc={gun2} title="Fr-556" />
+          <ItemCard imageSrc={gun2} title="Fr-556" description="ar" />
 
-          <ItemCard imageSrc={gun3} title="Holger-556" />
+          <ItemCard imageSrc={gun3} title="Holger-556" description="ar" />
         </div>
 
         {/* itemcards smg */}
         <div className="p-4 text-l font-bold ">Submachine guns</div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 w-full justify-center">
-          <ItemCard imageSrc={gun7} title="Amr9" />
+          <ItemCard imageSrc={gun7} title="Amr9" description="smg" />
 
-          <ItemCard imageSrc={gun8} title="Rival-9" />
+          <ItemCard imageSrc={gun8} title="Rival-9" description="smg" />
 
-          <ItemCard imageSrc={gun9} title="Striker" />
+          <ItemCard imageSrc={gun9} title="Striker" description="smg" />
 
-          <ItemCard imageSrc={gun10} title="Striker-9" />
+          <ItemCard imageSrc={gun10} title="Striker-9" description="smg" />
 
-          <ItemCard imageSrc={gun11} title="Wsp-swarm" />
+          <ItemCard imageSrc={gun11} title="Wsp-swarm" description="smg" />
 
-          <ItemCard imageSrc={gun12} title="Wsp-9" />
+          <ItemCard imageSrc={gun12} title="Wsp-9" description="smg" />
         </div>
       </div>
     </main>
