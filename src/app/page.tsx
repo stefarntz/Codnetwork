@@ -11,7 +11,13 @@ import gun9 from "../assets/guns/striker-call-of-duty-mw3.png";
 import gun10 from "../assets/guns/striker-9-call-of-duty-mw3.png";
 import gun11 from "../assets/guns/wsp_swarm-call-of-duty-mw3.png";
 import gun12 from "../assets/guns/wsp-9-call-of-duty-mw3.png";
+import gildedcamo from "../assets/mastery/gilded_wm_155.jpg";
+import forgedcamo from "../assets/mastery/forged_wm_155.jpg";
+import pricelesscamo from "../assets/mastery/priceless_wm_155.jpg";
 import camo1 from "../assets/camo/fractal-dirt.png";
+import camo2 from "../assets/camo/magma-heat.png";
+import camo3 from "../assets/camo/palette-rosemary.png";
+import camo4 from "../assets/camo/topo-glitch.png";
 
 export default function Home() {
   return (
@@ -25,6 +31,12 @@ export default function Home() {
             title="mtz-556"
             description="ar"
             imageScrCamo={camo1}
+            imageScrCamo2={camo2}
+            imageScrCamo3={camo3}
+            imageScrCamo4={camo4}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -32,6 +44,12 @@ export default function Home() {
             title="mcw"
             description="ar"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -39,6 +57,12 @@ export default function Home() {
             title="sva-45"
             description="ar"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -46,6 +70,12 @@ export default function Home() {
             title="dg-58"
             description="ar"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -53,6 +83,12 @@ export default function Home() {
             title="fr-556"
             description="ar"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -60,6 +96,12 @@ export default function Home() {
             title="holger-556"
             description="ar"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
         </div>
 
@@ -71,6 +113,12 @@ export default function Home() {
             title="amr9"
             description="smg"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -78,6 +126,12 @@ export default function Home() {
             title="rival-9"
             description="smg"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -85,6 +139,12 @@ export default function Home() {
             title="striker"
             description="smg"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -92,6 +152,12 @@ export default function Home() {
             title="striker-9"
             description="smg"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -99,6 +165,12 @@ export default function Home() {
             title="wsp-swarm"
             description="smg"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
@@ -106,6 +178,12 @@ export default function Home() {
             title="wsp-9"
             description="smg"
             imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
+            imageScrCamogilded={gildedcamo}
+            imageScrCamoforged={forgedcamo}
+            imageScrCamopriceless={pricelesscamo}
           />
         </div>
       </div>
