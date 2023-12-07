@@ -43,13 +43,55 @@ const ItemCard: React.FC<ItemCardProps> = ({
       </div>
 
       <div className="px-3 py-3 w-full flex justify-center flex-wrap gap-3">
-        <Image src={imageScrCamo} alt={title} width={40} height={40} />
-        <Image src={imageScrCamo2} alt={title} width={40} height={40} />
-        <Image src={imageScrCamo3} alt={title} width={40} height={40} />
-        <Image src={imageScrCamo4} alt={title} width={40} height={40} />
-        <Image src={imageScrCamogilded} alt={title} width={40} height={40} />
-        <Image src={imageScrCamoforged} alt={title} width={40} height={40} />
-        <Image src={imageScrCamopriceless} alt={title} width={40} height={40} />
+        <Image
+          src={imageScrCamo}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
+        <Image
+          src={imageScrCamo2}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
+        <Image
+          src={imageScrCamo3}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
+        <Image
+          src={imageScrCamo4}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
+        <Image
+          src={imageScrCamogilded}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
+        <Image
+          src={imageScrCamoforged}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
+        <Image
+          src={imageScrCamopriceless}
+          alt={title}
+          width={40}
+          height={40}
+          className="rounded-sm"
+        />
       </div>
     </div>
   );
