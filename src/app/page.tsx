@@ -1,10 +1,21 @@
 import ItemCard from "./components/itemcard";
-import gun1 from "../assets/guns/dg-58-call-of-duty-mw3.png";
-import gun2 from "../assets/guns/fr_556-call-of-duty-mw3.png";
-import gun3 from "../assets/guns/holger_556-call-of-duty-mw3.png";
-import gun4 from "../assets/guns/mcw-call-of-duty-mw3.png";
-import gun5 from "../assets/guns/mtz-556-call-of-duty-mw3.png";
-import gun6 from "../assets/guns/sva-45-call-of-duty-mw3.png";
+// import dg-58 and camos
+import dg58 from "../assets/guns/ar/dg-58/dg-58-call-of-duty-mw3.png";
+// import fr-556 and camos
+import fr556 from "../assets/guns/ar/fr-556/fr_556-call-of-duty-mw3.png";
+// import holger-556 and camos
+import holger556 from "../assets/guns/ar/holger-556/holger_556-call-of-duty-mw3.png";
+import fractaldirt from "../assets/guns/ar/holger-556/fractal-dirt.png";
+import magmaheat from "../assets/guns/ar/holger-556/magma-heat.png";
+import paletterosemary from "../assets/guns/ar/holger-556/palette-rosemary.png";
+import topoglitch from "../assets/guns/ar/holger-556/topo-glitch.png";
+// import mcw and camos
+import mcw from "../assets/guns/ar/mcw/mcw-call-of-duty-mw3.png";
+// import mtz-556 and camos
+import mtz556 from "../assets/guns/ar/mtz-556/mtz-556-call-of-duty-mw3.png";
+// import sva-45 and camos
+import sva45 from "../assets/guns/ar/sva-45/sva-45-call-of-duty-mw3.png";
+//
 import gun7 from "../assets/guns/amr9-call-of-duty-mw3.png";
 import gun8 from "../assets/guns/rival-9-call-of-duty-mw3.png";
 import gun9 from "../assets/guns/striker-call-of-duty-mw3.png";
@@ -14,10 +25,6 @@ import gun12 from "../assets/guns/wsp-9-call-of-duty-mw3.png";
 import gildedcamo from "../assets/mastery/gilded_wm_155.jpg";
 import forgedcamo from "../assets/mastery/forged_wm_155.jpg";
 import pricelesscamo from "../assets/mastery/priceless_wm_155.jpg";
-import camo1 from "../assets/camo/fractal-dirt.png";
-import camo2 from "../assets/camo/magma-heat.png";
-import camo3 from "../assets/camo/palette-rosemary.png";
-import camo4 from "../assets/camo/topo-glitch.png";
 
 export default function Home() {
   return (
@@ -27,20 +34,20 @@ export default function Home() {
         <div className="p-4 text-l font-bold ">Assault rifles</div>
         <div className="grid grid-cols-3 gap-5 w-full justify-center">
           <ItemCard
-            imageSrc={gun5}
+            imageSrc={mtz556}
             title="mtz-556"
             description="ar"
-            imageScrCamo={camo1}
-            imageScrCamo2={camo2}
-            imageScrCamo3={camo3}
-            imageScrCamo4={camo4}
+            imageScrCamo={""}
+            imageScrCamo2={""}
+            imageScrCamo3={""}
+            imageScrCamo4={""}
             imageScrCamogilded={gildedcamo}
             imageScrCamoforged={forgedcamo}
             imageScrCamopriceless={pricelesscamo}
           />
 
           <ItemCard
-            imageSrc={gun4}
+            imageSrc={mcw}
             title="mcw"
             description="ar"
             imageScrCamo={""}
@@ -53,7 +60,7 @@ export default function Home() {
           />
 
           <ItemCard
-            imageSrc={gun6}
+            imageSrc={sva45}
             title="sva-45"
             description="ar"
             imageScrCamo={""}
@@ -66,7 +73,7 @@ export default function Home() {
           />
 
           <ItemCard
-            imageSrc={gun1}
+            imageSrc={dg58}
             title="dg-58"
             description="ar"
             imageScrCamo={""}
@@ -79,7 +86,7 @@ export default function Home() {
           />
 
           <ItemCard
-            imageSrc={gun2}
+            imageSrc={fr556}
             title="fr-556"
             description="ar"
             imageScrCamo={""}
@@ -92,13 +99,13 @@ export default function Home() {
           />
 
           <ItemCard
-            imageSrc={gun3}
+            imageSrc={holger556}
             title="holger-556"
             description="ar"
-            imageScrCamo={""}
-            imageScrCamo2={""}
-            imageScrCamo3={""}
-            imageScrCamo4={""}
+            imageScrCamo={fractaldirt}
+            imageScrCamo2={magmaheat}
+            imageScrCamo3={paletterosemary}
+            imageScrCamo4={topoglitch}
             imageScrCamogilded={gildedcamo}
             imageScrCamoforged={forgedcamo}
             imageScrCamopriceless={pricelesscamo}
@@ -106,7 +113,7 @@ export default function Home() {
         </div>
 
         {/* itemcards smg */}
-        <div className="p-4 text-l font-bold ">Submachine guns</div>
+        {/* <div className="p-4 text-l font-bold ">Submachine guns</div>
         <div className="grid grid-cols-3 gap-5 w-full justify-center">
           <ItemCard
             imageSrc={gun7}
@@ -185,7 +192,7 @@ export default function Home() {
             imageScrCamoforged={forgedcamo}
             imageScrCamopriceless={pricelesscamo}
           />
-        </div>
+        </div> */}
       </div>
     </main>
   );
