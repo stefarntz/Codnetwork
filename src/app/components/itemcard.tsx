@@ -48,49 +48,49 @@ const ItemCard: React.FC<ItemCardProps> = ({
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
         <Image
           src={imageScrCamo2}
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
         <Image
           src={imageScrCamo3}
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
         <Image
           src={imageScrCamo4}
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
         <Image
           src={imageScrCamogilded}
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
         <Image
           src={imageScrCamoforged}
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
         <Image
           src={imageScrCamopriceless}
           alt={title}
           width={40}
           height={40}
-          className="rounded-sm"
+          className="rounded-md"
         />
       </div>
     </div>

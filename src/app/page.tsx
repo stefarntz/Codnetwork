@@ -11,10 +11,22 @@ import paletterosemary from "../assets/guns/ar/holger-556/palette-rosemary.png";
 import topoglitch from "../assets/guns/ar/holger-556/topo-glitch.png";
 // import mcw and camos
 import mcw from "../assets/guns/ar/mcw/mcw-call-of-duty-mw3.png";
+import razorfeather from "../assets/guns/ar/mcw/razor-feather.png";
+import skullflagration from "../assets/guns/ar/mcw/skullflagration.png";
+import abyssalfox from "../assets/guns/ar/mcw/abyssal-fox.png";
+import menelaus from "../assets/guns/ar/mcw/menelaus-blue.png";
 // import mtz-556 and camos
 import mtz556 from "../assets/guns/ar/mtz-556/mtz-556-call-of-duty-mw3.png";
+import orangetones from "../assets/guns/ar/mtz-556/orange-tones.png";
+import irisglitch from "../assets/guns/ar/mtz-556/iris-glitch.png";
+import germfactory from "../assets/guns/ar/mtz-556/germ-factory.png";
+import purple from "../assets/guns/ar/mtz-556/purple.png";
 // import sva-45 and camos
 import sva45 from "../assets/guns/ar/sva-45/sva-45-call-of-duty-mw3.png";
+import bluetones from "../assets/guns/ar/sva-45/blue-tones.png";
+import topomuddy from "../assets/guns/ar/sva-45/topo-muddy.png";
+import cinders from "../assets/guns/ar/sva-45/cinders.png";
+import monarch from "../assets/guns/ar/sva-45/monarch.png";
 //
 import gun7 from "../assets/guns/amr9-call-of-duty-mw3.png";
 import gun8 from "../assets/guns/rival-9-call-of-duty-mw3.png";
@@ -37,10 +49,10 @@ export default function Home() {
             imageSrc={mtz556}
             title="mtz-556"
             description="ar"
-            imageScrCamo={""}
-            imageScrCamo2={""}
-            imageScrCamo3={""}
-            imageScrCamo4={""}
+            imageScrCamo={orangetones}
+            imageScrCamo2={irisglitch}
+            imageScrCamo3={germfactory}
+            imageScrCamo4={purple}
             imageScrCamogilded={gildedcamo}
             imageScrCamoforged={forgedcamo}
             imageScrCamopriceless={pricelesscamo}
@@ -50,10 +62,10 @@ export default function Home() {
             imageSrc={mcw}
             title="mcw"
             description="ar"
-            imageScrCamo={""}
-            imageScrCamo2={""}
-            imageScrCamo3={""}
-            imageScrCamo4={""}
+            imageScrCamo={razorfeather}
+            imageScrCamo2={skullflagration}
+            imageScrCamo3={abyssalfox}
+            imageScrCamo4={menelaus}
             imageScrCamogilded={gildedcamo}
             imageScrCamoforged={forgedcamo}
             imageScrCamopriceless={pricelesscamo}
@@ -63,10 +75,10 @@ export default function Home() {
             imageSrc={sva45}
             title="sva-45"
             description="ar"
-            imageScrCamo={""}
-            imageScrCamo2={""}
-            imageScrCamo3={""}
-            imageScrCamo4={""}
+            imageScrCamo={bluetones}
+            imageScrCamo2={topomuddy}
+            imageScrCamo3={cinders}
+            imageScrCamo4={monarch}
             imageScrCamogilded={gildedcamo}
             imageScrCamoforged={forgedcamo}
             imageScrCamopriceless={pricelesscamo}
