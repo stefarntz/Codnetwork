@@ -27,16 +27,16 @@ import bluetones from "../assets/guns/ar/sva-45/blue-tones.png";
 import topomuddy from "../assets/guns/ar/sva-45/topo-muddy.png";
 import cinders from "../assets/guns/ar/sva-45/cinders.png";
 import monarch from "../assets/guns/ar/sva-45/monarch.png";
-//
+// 
 import gun7 from "../assets/guns/amr9-call-of-duty-mw3.png";
 import gun8 from "../assets/guns/rival-9-call-of-duty-mw3.png";
 import gun9 from "../assets/guns/striker-call-of-duty-mw3.png";
 import gun10 from "../assets/guns/striker-9-call-of-duty-mw3.png";
 import gun11 from "../assets/guns/wsp_swarm-call-of-duty-mw3.png";
 import gun12 from "../assets/guns/wsp-9-call-of-duty-mw3.png";
-import gildedcamo from "../assets/mastery/gilded_wm_155.jpg";
-import forgedcamo from "../assets/mastery/forged_wm_155.jpg";
-import pricelesscamo from "../assets/mastery/priceless_wm_155.jpg";
+import gilded from "../assets/mastery/gilded_wm_155.jpg";
+import forged from "../assets/mastery/forged_wm_155.jpg";
+import priceless from "../assets/mastery/priceless_wm_155.jpg";
 
 export default function Home() {
   return (
@@ -53,9 +53,9 @@ export default function Home() {
             imageScrCamo2={irisglitch}
             imageScrCamo3={germfactory}
             imageScrCamo4={purple}
-            imageScrCamogilded={gildedcamo}
-            imageScrCamoforged={forgedcamo}
-            imageScrCamopriceless={pricelesscamo}
+            imageScrCamogilded={gilded}
+            imageScrCamoforged={forged}
+            imageScrCamopriceless={priceless}
           />
 
           <ItemCard
@@ -66,9 +66,9 @@ export default function Home() {
             imageScrCamo2={skullflagration}
             imageScrCamo3={abyssalfox}
             imageScrCamo4={menelaus}
-            imageScrCamogilded={gildedcamo}
-            imageScrCamoforged={forgedcamo}
-            imageScrCamopriceless={pricelesscamo}
+            imageScrCamogilded={gilded}
+            imageScrCamoforged={forged}
+            imageScrCamopriceless={priceless}
           />
 
           <ItemCard
@@ -79,9 +79,9 @@ export default function Home() {
             imageScrCamo2={topomuddy}
             imageScrCamo3={cinders}
             imageScrCamo4={monarch}
-            imageScrCamogilded={gildedcamo}
-            imageScrCamoforged={forgedcamo}
-            imageScrCamopriceless={pricelesscamo}
+            imageScrCamogilded={gilded}
+            imageScrCamoforged={forged}
+            imageScrCamopriceless={priceless}
           />
 
           <ItemCard
@@ -92,9 +92,9 @@ export default function Home() {
             imageScrCamo2={""}
             imageScrCamo3={""}
             imageScrCamo4={""}
-            imageScrCamogilded={gildedcamo}
-            imageScrCamoforged={forgedcamo}
-            imageScrCamopriceless={pricelesscamo}
+            imageScrCamogilded={gilded}
+            imageScrCamoforged={forged}
+            imageScrCamopriceless={priceless}
           />
 
           <ItemCard
@@ -105,9 +105,9 @@ export default function Home() {
             imageScrCamo2={""}
             imageScrCamo3={""}
             imageScrCamo4={""}
-            imageScrCamogilded={gildedcamo}
-            imageScrCamoforged={forgedcamo}
-            imageScrCamopriceless={pricelesscamo}
+            imageScrCamogilded={gilded}
+            imageScrCamoforged={forged}
+            imageScrCamopriceless={priceless}
           />
 
           <ItemCard
@@ -118,9 +118,9 @@ export default function Home() {
             imageScrCamo2={magmaheat}
             imageScrCamo3={paletterosemary}
             imageScrCamo4={topoglitch}
-            imageScrCamogilded={gildedcamo}
-            imageScrCamoforged={forgedcamo}
-            imageScrCamopriceless={pricelesscamo}
+            imageScrCamogilded={gilded}
+            imageScrCamoforged={forged}
+            imageScrCamopriceless={priceless}
           />
         </div>
 
