@@ -3,7 +3,7 @@ import React from "react";
 
 interface ItemCardProps {
   imageSrc: string | StaticImageData;
-  imageScrCamo: string | StaticImageData;
+  imageScrCamo1: string | StaticImageData;
   imageScrCamo2: string | StaticImageData;
   imageScrCamo3: string | StaticImageData;
   imageScrCamo4: string | StaticImageData;
@@ -16,7 +16,7 @@ interface ItemCardProps {
 
 const ItemCard: React.FC<ItemCardProps> = ({
   imageSrc,
-  imageScrCamo,
+  imageScrCamo1,
   imageScrCamo2,
   imageScrCamo3,
   imageScrCamo4,
@@ -44,7 +44,7 @@ const ItemCard: React.FC<ItemCardProps> = ({
 
       <div className="px-3 py-3 w-full flex justify-center flex-wrap gap-3">
         <Image
-          src={imageScrCamo}
+          src={imageScrCamo1}
           alt={title}
           width={40}
           height={40}
