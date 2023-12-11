@@ -6,8 +6,16 @@ import cinders from "../assets/guns/ar/sva-45/cinders.png";
 import monarch from "../assets/guns/ar/sva-45/monarch.png";
 // dg-58
 import dg58 from "../assets/guns/ar/dg-58/dg-58-call-of-duty-mw3.png";
+import heatmap from "../assets/guns/ar/dg-58/heat-map.png";
+import creeplines from "../assets/guns/ar/dg-58/creeplines.png";
+import twilightglitch from "../assets/guns/ar/dg-58/twilight-glitch.png";
+import oakleaf from "../assets/guns/ar/dg-58/oakleaf.png";
 // fr-556
 import fr556 from "../assets/guns/ar/fr-556/fr_556-call-of-duty-mw3.png";
+import getstony from "../assets/guns/ar/fr-556/get-stony.png";
+import digitalbloodbath from "../assets/guns/ar/fr-556/digital-bloodbath.png";
+import nightshade from "../assets/guns/ar/fr-556/nightshade.png";
+import tigerblood from "../assets/guns/ar/fr-556/tiger-blood.png";
 // holger-556
 import holger556 from "../assets/guns/ar/holger-556/holger_556-call-of-duty-mw3.png";
 import fractaldirt from "../assets/guns/ar/holger-556/fractal-dirt.png";
@@ -38,7 +46,15 @@ export {
   cinders,
   monarch,
   dg58,
+  heatmap,
+  creeplines,
+  twilightglitch,
+  oakleaf,
   fr556,
+  getstony,
+  digitalbloodbath,
+  nightshade,
+  tigerblood,
   holger556,
   fractaldirt,
   magmaheat,
@@ -53,8 +69,8 @@ export {
   orangetones,
   irisglitch,
   germfactory,
-  //   mastery
   purple,
+  //   mastery
   gilded,
   forged,
   priceless,

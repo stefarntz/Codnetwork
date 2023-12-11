@@ -51,10 +51,10 @@ export default function Home() {
             imageSrc={images.dg58}
             title="dg-58"
             description="ar"
-            imageScrCamo1={""}
-            imageScrCamo2={""}
-            imageScrCamo3={""}
-            imageScrCamo4={""}
+            imageScrCamo1={images.heatmap}
+            imageScrCamo2={images.creeplines}
+            imageScrCamo3={images.twilightglitch}
+            imageScrCamo4={images.oakleaf}
             imageScrCamogilded={images.gilded}
             imageScrCamoforged={images.forged}
             imageScrCamopriceless={images.priceless}
@@ -64,10 +64,10 @@ export default function Home() {
             imageSrc={images.fr556}
             title="fr-556"
             description="ar"
-            imageScrCamo1={""}
-            imageScrCamo2={""}
-            imageScrCamo3={""}
-            imageScrCamo4={""}
+            imageScrCamo1={images.getstony}
+            imageScrCamo2={images.digitalbloodbath}
+            imageScrCamo3={images.nightshade}
+            imageScrCamo4={images.tigerblood}
             imageScrCamogilded={images.gilded}
             imageScrCamoforged={images.forged}
             imageScrCamopriceless={images.priceless}
@@ -86,10 +86,6 @@ export default function Home() {
             imageScrCamopriceless={images.priceless}
           />
         </div>
-
-        {/* itemcards smg */}
-        <div className="p-4 text-l font-bold "></div>
-        <div className="grid grid-cols-3 gap-5 w-full justify-center"></div>
       </div>
     </main>
   );
